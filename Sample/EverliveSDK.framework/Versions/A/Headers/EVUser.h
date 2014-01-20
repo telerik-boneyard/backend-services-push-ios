@@ -134,6 +134,14 @@
 +(void)linkFacebookAccount:(NSString*)userId accessToken:(NSString*)accessToken block:(EVObjectResultBlock)block;
 
 /*!
+Links the everlive account with an ADFS account
+@param userId The Id of the user
+@param accessToken The access token from the external provider
+@param block The block to execute
+*/
++ (void)linkAdfsAccount:(NSString *)userId accessToken:(NSString *)accessToken block:(EVObjectResultBlock)block;
+
+/*!
  Links the everlive account with a LiveID account
  @param userId The Id of the user
  @param accessToken The access token from the external provider
@@ -157,6 +165,13 @@
 +(void) unlinkFacebookAccount:(NSString*)userId block:(EVObjectResultBlock)block;
 
 /*!
+ Unlinks the everlive user account and the Adfs account
+ @param userId The user id
+ @param block The block to execute
+ */
++ (void)unlinkAdfsAccount:(NSString *)userId block:(EVObjectResultBlock)block;
+
+/*!
  Unlinks the everlive user account and the LiveID account
  @param userId The user id
  @param block The block to execute
@@ -170,6 +185,20 @@
  */
 +(void) unlinkGoogleAccount:(NSString*)userId block:(EVObjectResultBlock)block;
 
+/*!
+ Makes an asynchrounous request to log in a user with an ADFS access token
+ @param accessToken The access token obtained from the Active Directory
+ @param block The block to execute. The block should have the following argument signature: (EVUser *user, NSError *error)
+ */
++(void)loginWithAdfs:(NSString *)accessToken block:(EVUserResultBlock)block;
+
+/*!
+ Makes an asynchrounous request to log in a user with ADFS with username and password.
+ @param username The username for the Active Directory
+ @param password The password for the Active Directory
+ @param block The block to execute. The block should have the following argument signature: (EVUser *user, NSError *error)
+ */
++(void)loginWithAdfs:(NSString*)username password:(NSString*) password block:(EVUserResultBlock)block;
 
 /*!
  Logs out the currenlty logged in user on disk.

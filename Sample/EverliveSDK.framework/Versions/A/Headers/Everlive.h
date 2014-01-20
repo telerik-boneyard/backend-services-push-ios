@@ -16,6 +16,7 @@
 
 @property (strong, nonatomic) NSString *appKey;
 @property (strong, nonatomic) NSString *masterKey;
+@property (strong, nonatomic) NSString *apiServerUrl;
 
 /*!
  Returns the shared instance of your application.
@@ -32,6 +33,12 @@
  @param appKey The application key for your Everlive application.
  */
 + (void)setApplicationKey:(NSString*)appKey;
+
+/*!
+ Sets the API server URL.
+ @param url the API server URL.
+ */
++ (void)setServerUrl:(NSString*)url;
 
 /*!
  Registers the device in Everlive cloud to receive push notification.

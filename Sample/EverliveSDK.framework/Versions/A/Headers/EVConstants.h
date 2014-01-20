@@ -24,4 +24,5 @@ typedef void (^EVFileResult)(EVFile *result, NSError *error);
 extern NSString* const kEverliveServer;
 extern NSString* const kEverliveAPIKey;
 extern NSString* const kEverliveMasterKey;
+NSString* const kAdfsSoapMessageTemplate;
 
