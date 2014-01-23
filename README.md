@@ -1,7 +1,7 @@
-platform-push-ios
+backend-services-push-ios
 =================
 
-This application is a basic example of using Push Notifications provided by Everlive.
+This application is a basic example of using Push Notifications provided by Telerik Backend Services.
 
 ###Requirements
 
