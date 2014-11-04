@@ -2,7 +2,6 @@
 //  EVViewController.m
 //  PushNotificationsSample
 //
-//  Created by Pavel Pavlov on 1/19/14.
 //  Copyright (c) 2014 Telerik. All rights reserved.
 //
 
@@ -17,26 +16,24 @@
 @implementation EVViewController
 
 - (IBAction)register:(id)sender {
-
-    [Everlive setApplicationKey:@"E8tMoGEClJf0xmvV"];
-    NSDictionary *dictionary = [NSDictionary dictionaryWithObjectsAndKeys:@"PushSample",@"appName", nil];
-        [[Everlive sharedInstance]registerDeviceWithParameters:dictionary block:^(BOOL success, NSError *error) {
-            if(error != Nil){
-                 [self.infoLabel setText:error.localizedDescription];
-            }
-            else{
-                [self.infoLabel setText:@"Your device is now registered and ready to recieve push notifications."];
-            }
+    
+    NSDictionary *customParams = [NSDictionary dictionaryWithObjectsAndKeys:@"Palo Alto",@"City", nil];
+    
+    [[Everlive sharedInstance]registerDeviceWithParameters:customParams block:^(BOOL success, NSError *error) {
+        if (error != nil) {
+            [self.infoLabel setText:error.localizedDescription];
+        } else {
+            [self.infoLabel setText:@"Your device is now registered and ready to receive push notifications."];
+        }
     }];
 }
 - (IBAction)unregister:(id)sender {
     
     [[Everlive sharedInstance]removeDevice:^(BOOL success, NSError *error) {
-        if(error != Nil){
+        if (error != nil) {
             [self.infoLabel setText:error.localizedDescription];
-        }
-        else{
-                [self.infoLabel setText:@"You have unregistered your device."];
+        } else {
+            [self.infoLabel setText:@"You have unregistered your device."];
         }
     }];
 }
@@ -44,7 +41,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    // Do any additional setup after loading the view, typically from a nib.
 }
 
 - (void)didReceiveMemoryWarning
