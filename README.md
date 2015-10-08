@@ -41,8 +41,6 @@ The sample app comes fully functional, but to see it in action you must link it 
 
 Once the app is configured, you can run it on a real device from within Xcode.
 
-> When running the app, ensure that you are building it as an app package as opposed to an AppBuilder companion app package.
-
 > Push notifications are not supported when running the app on device simulators.
 
 > Ensure that the device that you are using has Internet connectivity when running the sample.
