@@ -2,6 +2,7 @@
 
 <a href="https://github.com/telerik/backend-services-push-ios" target="_blank"><img style="padding-left:20px" src="http://docs.telerik.com/platform/samples/images/get-github.png" alt="Get from GitHub" title="Get from GitHub"></a>
 
+<a id="top"></a>
 * [Overview](#overview)
 * [Requirements](#requirements)
 * [Configuration](#configuration)
