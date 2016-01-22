@@ -33,7 +33,7 @@ The sample app comes fully functional, but to see it in action you must link it 
 4. Click the **Settings** tab.
 2. Take note of your **App ID**.
 3. In Xcode, open the `Sample/PushNotificationsSample/EVAppDelegate.m` file.
-4. Find `YOUR_API_KEY` and replace it with the App ID that you acquired earlier.
+4. Find `YOUR_APP_ID` and replace it with the App ID that you acquired earlier.
 5. Go back to the Telerik Platform web portal and set up push notifications in your app as explained in [Enabling Push Notifications](http://docs.telerik.com/platform/backend-services/javascript/push-notifications/push-enabling).
 
 # Running the Sample
