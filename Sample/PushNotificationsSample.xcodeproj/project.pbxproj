@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0E1CC7D11A5ECE4300FEAD0B /* EverliveSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E1CC7D01A5ECE4300FEAD0B /* EverliveSDK.framework */; };
+		2B12B1CD1C52619E007DB622 /* EverliveSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B12B1CC1C52619E007DB622 /* EverliveSDK.framework */; settings = {ASSET_TAGS = (); }; };
 		8DA9A035188C0DB20012AB62 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DA9A034188C0DB20012AB62 /* Foundation.framework */; };
 		8DA9A037188C0DB20012AB62 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DA9A036188C0DB20012AB62 /* CoreGraphics.framework */; };
 		8DA9A039188C0DB20012AB62 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DA9A038188C0DB20012AB62 /* UIKit.framework */; };
@@ -22,7 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0E1CC7D01A5ECE4300FEAD0B /* EverliveSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = EverliveSDK.framework; sourceTree = "<group>"; };
+		2B12B1CC1C52619E007DB622 /* EverliveSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = EverliveSDK.framework; sourceTree = "<group>"; };
 		8DA9A031188C0DB20012AB62 /* PushNotificationsSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PushNotificationsSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DA9A034188C0DB20012AB62 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8DA9A036188C0DB20012AB62 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,7 +48,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DA9A037188C0DB20012AB62 /* CoreGraphics.framework in Frameworks */,
-				0E1CC7D11A5ECE4300FEAD0B /* EverliveSDK.framework in Frameworks */,
+				2B12B1CD1C52619E007DB622 /* EverliveSDK.framework in Frameworks */,
 				8DA9A039188C0DB20012AB62 /* UIKit.framework in Frameworks */,
 				8DA9A035188C0DB20012AB62 /* Foundation.framework in Frameworks */,
 			);
@@ -77,7 +77,7 @@
 		8DA9A033188C0DB20012AB62 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0E1CC7D01A5ECE4300FEAD0B /* EverliveSDK.framework */,
+				2B12B1CC1C52619E007DB622 /* EverliveSDK.framework */,
 				8DA9A034188C0DB20012AB62 /* Foundation.framework */,
 				8DA9A036188C0DB20012AB62 /* CoreGraphics.framework */,
 				8DA9A038188C0DB20012AB62 /* UIKit.framework */,

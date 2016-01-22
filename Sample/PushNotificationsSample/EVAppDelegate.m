@@ -13,7 +13,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    [Everlive setApplicationKey: @"YOUR_API_KEY"];
+    [Everlive setApplicationId: @"YOUR_APP_ID"];
     
     [application registerForRemoteNotifications];
     return YES;
