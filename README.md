@@ -6,7 +6,6 @@
 * [Requirements](#requirements)
 * [Configuration](#configuration)
 * [Running the Sample](#running-the-sample)
-* [See Also](#see-also)
 
 # Overview
 
@@ -43,7 +42,3 @@ Once the app is configured, you can run it on a real device from within Xcode.
 > Push notifications are not supported when running the app on device simulators.
 
 > Ensure that the device that you are using has Internet connectivity when running the sample.
-
-# See Also
-
-[Getting Started with Push Notifications](http://docs.telerik.com/platform/backend-services/ios/push-notifications/push-getting-started)

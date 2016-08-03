@@ -6,3 +6,7 @@ page_title: Basic Push Notifications Sample App for iOS | Telerik Platform
 description: A simple native iOS mobile app that has the single purpose of receiving push notifications sent from Telerik Platform.
 tags: Telerik, Sample App, Application, iOS, Objective-C, push, notifications, BaaS
 repo_kind: "iOS Native"
+apis: everlive.ios.registerDeviceWithParameters everlive.ios.removeDevice
+related_resources:
+- "[Getting Started with Push Notifications](http://docs.telerik.com/platform/backend-services/ios/push-notifications/push-getting-started)"
+- "[Handling Push Notifications in a Native iOS App](http://docs.telerik.com/platform/backend-services/ios/push-notifications/push-handle)"
