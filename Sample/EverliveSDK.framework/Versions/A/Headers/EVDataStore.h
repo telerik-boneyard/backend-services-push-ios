@@ -24,7 +24,7 @@
 
 /*!
  Retrieves the EVObject with the specified id in background.
- @param aClass The EVObject type to retreive.
+ @param aClass The EVObject type to retrieve.
  @param uniqueId The id of the item
  @param block The block to execute. The block should have the following argument signature: (BOOL success, NSError *error)
  */
@@ -41,14 +41,14 @@
 
 /*!
  Retrieves all the EVObject in background.
- @param aClass The EVObject type to retreive.
+ @param aClass The EVObject type to retrieve.
  @param block The block to execute. The block should have the following argument signature: (BOOL success, NSError *error)
  */
 - (void)fetchAll:(Class)aClass block:(EVObjectFetchResultBlock)block;
 
 /*!
  Retrieves all the EVObject in background.
- @param aClass The EVObject type to retreive.
+ @param aClass The EVObject type to retrieve.
  @param target The object to call selector on.
  @param selector The selector to call. It should have the following signature: (void)requestCompletedWithResult:(NSArray*)result error:(NSError*)error. error will be nill on success.
  */

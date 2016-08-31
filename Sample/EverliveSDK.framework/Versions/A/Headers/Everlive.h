@@ -30,13 +30,13 @@
 + (void)setDeviceToken:(NSData*)deviceToken;
 
 /*!
- Sets the application key for your applicaiton.
+ Sets the application key for your application.
  @param appKey The application key for your Everlive application.
  */
 + (void)setApplicationKey:(NSString*)appKey DEPRECATED_MSG_ATTRIBUTE("setApplicationKey is deprecated. Please use setApplicationId.");
 
 /*!
- Sets the application id for your applicaiton.
+ Sets the application id for your application.
  @param appId The application id for your Everlive application.
  */
 + (void)setApplicationId:(NSString*)appId;
